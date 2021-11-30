@@ -10,7 +10,7 @@ export const ArtGallery = () => {
   const [pictures, setPictures] = useState([])
   const [isLoading, setIsLoading] = useState(true)
   const [errorOccured, setErrorOccured] = useState(false)
-  const searchWord = "brickwall"
+  const searchWord = "valtra"
 
   const { apiIsSlow } = useApiSlow()
 
